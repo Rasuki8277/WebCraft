@@ -9,6 +9,13 @@ body {
     background-position: center;
 }
 
+.disable {
+    cursor: wait;
+    pointer-events: none;
+    background: #999 !important;
+    border: none !important;
+}
+
 #button {
     height: var(--btn-size);
     width: 60%;
